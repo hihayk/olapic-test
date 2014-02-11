@@ -27,14 +27,6 @@
    margin: 0 10px 0 0;
 }
 
-#filtros li a {
-   padding: 2px 7px 2px 7px;
-   color: #666;
-   background-color: #eeeeee;
-   border: 1px solid #ccc;
-   text-decoration: none;
-}
-
 
 .photos .img_box {
   width: 180px;

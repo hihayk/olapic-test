@@ -1,31 +1,55 @@
+#main {
+  background-color: #d3b5e1;
+  position: relative;
+  margin-bottom: 20px;
+  width: auto;
+  max-width: 981px !important;
+  min-width: 300px;
+  } 
+
 #container {
-	background-color: #d3b5e1;
 	position: relative;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 	width: auto;
-	max-width: 981px !important;
-	min-width: 300px;
+  height: auto;
 	} 
 
 #filtros {
 	background-color: #d3b5e1;
 	position: relative;
 	width: auto;
-	max-width: 981px !important;
-	min-width: 300px;
-	margin: 0;
+  font-family: "avenirnextw10-regularregular";
+  padding: 10px;
+  font-weight: bold;
 }	
 
 #filtros ul{
    list-style-type: none;
-   text-align: center;
+   text-align: left;
+   left: 0;
+   padding: 0;
 }
 
 #filtros li{
    display: inline;
-   text-align: center;
-   margin: 0 10px 0 0;
+   text-align: left;
+   margin: 0 5px 0 0;
+   color: #542c6b;
+   font-size: 13px;
 }
+
+#filtros li a {
+   padding: 2px 4px 2px 4px;
+   color: #FFF;
+   text-decoration: none;
+   font-weight: bolder;
+}
+
+#filtros li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
 
 
 .photos .img_box {
@@ -60,6 +84,7 @@
 
 .isotope-item {
   z-index: 2;
+  top: 10px;
 }
 
 .isotope-hidden.isotope-item {
@@ -166,8 +191,6 @@
 }
 
 
-
-/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
 .clearfix:before, .clearfix:after { content: ""; display: table; }
 .clearfix:after { clear: both; }
 .clearfix { zoom: 1; }
